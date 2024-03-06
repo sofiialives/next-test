@@ -8,6 +8,9 @@ const nextConfig = {
       },
     ],
   },
+  env: {
+    MONGO: process.env.MONGO,
+  },
 };
 
 export default nextConfig;
